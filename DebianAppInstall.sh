@@ -26,10 +26,10 @@ if demander_confirmation "Mise à jour du système"; then
 fi
 
 # =====================================================================
-# 2. Installer FastFetch et NeoFetch
+# 2. Installer FastFetch
 # =====================================================================
 if demander_confirmation "L'installation de FastFetch et NeoFetch"; then
-    sudo apt install -y fastfetch neofetch
+    sudo apt install -y fastfetch
 fi
 
 # =====================================================================
