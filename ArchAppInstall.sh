@@ -36,7 +36,7 @@ fi
 # 2.5. Installer Les Outils pour La compilation de linux
 # =====================================================================
 if demander_confirmation "L'installation des outils kernel linux"; then
-    sudo pacman -S --noconfirm base-devel ncurses bison flex libelf bc cpio perl tar xz mkinitcpio grub ovmf guestfs-tools net-tools
+    sudo pacman -S --noconfirm base-devel ncurses bison flex libelf bc cpio perl tar xz grub edk2-ovmf guestfs-tools net-tools
 fi
 
 # =====================================================================
