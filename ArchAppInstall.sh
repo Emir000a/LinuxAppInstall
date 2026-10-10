@@ -2,7 +2,6 @@
 
 # Script Emir-Prime version Arch Linux
 USER_ACTUEL=$(whoami)
-set -e
 
 echo "Attente de 1 seconde avant de commencer..."
 sleep 1
